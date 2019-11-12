@@ -18,11 +18,10 @@ $(document ).ready(function() {
       $("#pagecn").html(setExamplePage());    
       return;
   }
-  if (paths.length === 5 && paths[4]) {
-    path = paths[4]
-  } else {
-    path  = ''
-  }
+  path = paths.pop()
+  if (!path.startsWith('BCO_')) {
+    path = ''
+  } 
   $("#loginformcn").css("display", "none");
   $("#pagelinkcn").css("display", "block");
 
