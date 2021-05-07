@@ -51,7 +51,7 @@
     "react-scripts": "^3.0.1",
     "recompose": "^0.30.0",
     "rjsf-material-ui": "^0.3.9",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "uuid": "^3.3.2",
     "validate.js": "^0.13.1"
   },
